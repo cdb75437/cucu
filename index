@@ -46,7 +46,7 @@
     document.getElementById("reportTitle").textContent = `📊 ${yyyy}/${mm}/${dd} 客戶專用報表（CUCU 專用）`;
 
     const sheetID = "1VRX5HIrcxKDzHnFBzny4Ny5Spbv_omND3h4PW3e3pWI";
-    const sheetName = "Sheet2";
+    const sheetName = "Sheet3";
     const url = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?sheet=${sheetName}`;
 
     let allData = [];
